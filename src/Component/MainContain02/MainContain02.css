@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Container {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+}
+.listArticle {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.articleContainer {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.eachArticle {
+    flex-basis: 250px;
+}
+.articleImg {
+    width: 100%;
+}
