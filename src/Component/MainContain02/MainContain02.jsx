@@ -7,15 +7,17 @@ const MainContain02 = () => {
         <div key={article.id} className='eachArticle'>
             <img src={article.image} alt="" className='articleImg' 
             style={{height: article.image == "img01" ? "166.66px" : "166px"}}/>
-            <h3>{article.author}</h3>
-            <h2>{article.heading}</h2>
-            <p>{article.paragraph}</p>
+            <div className='imagesInfo'>
+            <h3 className='author'>{article.author}</h3>
+            <h2 className='heading'>{article.heading}</h2>
+            <h3 className='paragraph'>{article.paragraph}</h3>
+            </div>
         </div>
     ))
   return (
     <div className='Container'>
         <div className='listArticle'>
-            <h1>List Articles</h1>
+            <h1 className='articleListText'>List Articles</h1>
             <div className='articleContainer'>
                 {articleList}
             </div>

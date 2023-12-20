@@ -1,0 +1,66 @@
+:root {
+    --Dark-Blue: hsl(233, 26%, 24%);
+    --Lime-Green: hsl(136, 65%, 51%);
+    --Bright-Cyan: hsl(192, 70%, 51%);
+    
+    /* ### Neutral */
+    
+    --Grayish-Blue: hsl(233, 8%, 62%);
+    --Light-Grayish-Blue: hsl(220, 16%, 96%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+    --White: hsl(0, 0%, 100%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Containers {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+    background-color: var(--Dark-Blue);
+}
+.footerContainer {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 3em 0;
+}
+.footerIcon {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+    flex-basis: 40%;
+}
+.footerInfo {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.info {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: .8em;
+}
+.footerEnd {
+    flex-basis: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4em;
+    align-items: end;
+}
+.socialIcons {
+    display: flex;
+    gap: .8em;
+}
+.footerLogo {
+    filter: brightness(100);
+}
+.copyright {
+    font-size: 1em;
+}
